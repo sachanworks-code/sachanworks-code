@@ -33,6 +33,21 @@ At **Bharti Airtel**, I build systems that process billing data reliably, serve 
 
 ---
 
+## 🚀 Featured Projects
+
+### [Billing Event Pipeline](https://github.com/sachanworks-code/billing-event-pipeline)
+
+A Java 21 and Spring Boot backend demo using **Kafka, MySQL, and a transactional outbox** to process synthetic billing events reliably.
+
+- **Idempotent processing:** duplicate deliveries create one billing record; conflicting replays go to a dead-letter queue.
+- **Reliable audit delivery:** billing data and audit intent commit together, with retries for pending audit events.
+- **Verified behavior:** 26 automated tests, including Kafka/MySQL integration tests; a local Docker demo processed all 100 synthetic events.
+- **Easy to explore:** architecture diagram, OpenAPI contract, Docker setup, and GitHub Actions verification.
+
+[Explore the project →](https://github.com/sachanworks-code/billing-event-pipeline)
+
+---
+
 ## 🚀 Production Impact
 
 | Area | Contribution | Impact |
