@@ -145,13 +145,6 @@ Microservices using **REST APIs, Solace, and Oracle** to automate Invoice Refere
 
 ---
 
-## 📊 GitHub Activity
-
-<p align="center">
-  <img alt="Vikash's GitHub statistics" src="https://github-readme-stats.vercel.app/api?username=sachanworks-code&show_icons=true&theme=dark&hide_border=true&title_color=00C853&icon_color=00C853" />
-  <img alt="Most used languages in public repositories" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sachanworks-code&layout=compact&theme=dark&hide_border=true&title_color=00C853" />
-</p>
-
 ## 🐍 Contribution Snake
 
 <p align="center">
