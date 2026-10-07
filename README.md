@@ -1,9 +1,9 @@
 <p align="center">
-  <img width="100%" alt="Vikash Sachan" src="https://capsule-render.vercel.app/api?type=waving&color=0%3A00C853%2C100%3A006400&height=200&section=header&text=Vikash+Sachan&fontSize=44&fontColor=ffffff" />
+  <img width="100%" alt="Vikash Sachan" src="https://capsule-render.vercel.app/api?type=waving&color=0%3A00C853%2C100%3A006400&height=200&section=header&text=Vikash+SACHAN&fontSize=44&fontColor=ffffff" />
 </p>
 
 <p align="center">
-  <img width="100%" alt="Senior Software Engineer | Java and Spring Boot | Event-Driven Backend Systems" src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=900&color=00C853&center=true&vCenter=true&width=800&lines=Hello+World%21+I+am+Vikash+Sachan%3BSenior+Software+Engineer%3BJava+and+Spring+Boot%3BEvent-Driven+Backend+Systems" />
+  <img width="100%" alt="Senior Software Engineer | Java and Spring Boot | Event-Driven Backend Systems" src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=900&color=00C853&center=true&vCenter=true&width=900&lines=Senior+Software+Engineer%3BJava+%26+Spring+Boot%3BEvent-Driven+Backend+Systems%3BTelecom+Billing+Platform+Engineering" />
 </p>
 
 <p align="center">
@@ -18,66 +18,64 @@
 
 ---
 
-## 👨‍💻 About Me
+## About Me
 
-I'm **Vikash Sachan**, a Senior Software Engineer with **6+ years of experience** building Java and Spring Boot backend services for telecom billing.
+I’m a Senior Software Engineer with 6+ years of experience building reliable backend systems for telecom billing, large-scale data processing, and event-driven platforms.
 
-At **Bharti Airtel**, I build systems that process billing data reliably, serve fast APIs, and help customers understand their bills.
+At Bharti Airtel, I work on systems that process high-volume billing data, expose performant APIs, and improve customer clarity around bills and usage. My focus is on building robust, scalable services that are operationally resilient under production load.
 
-- 🔭 Working on **high-volume billing platforms and event-driven microservices**
-- ⚙️ Experienced in **idempotent processing, automated retries, and distributed caching**
-- 🚀 Designed an ingestion pipeline processing **400K+ billing files per day**
-- 💬 Ask me about **Java, Spring Boot, Kafka, Solace, and SQL optimization**
-- 🛠️ Hands-on with **Docker, Kubernetes, Jenkins, and production troubleshooting**
-- 🏆 Recognized with **Ace of Innovation at Airtel Digital** for the Bill Spike concept
+- Building and owning **high-volume billing and event-driven microservices**
+- Strong focus on **idempotency, retry safety, observability, and system reliability**
+- Experience delivering systems that handle **400K+ billing files per day**
+- Comfortable across **Java, Spring Boot, Kafka, Solace, SQL optimization, caching, and infrastructure tooling**
+- Recognized with the **Ace of Innovation award** at Airtel Digital for the Bill Spike concept
 
 ---
 
-## 🚀 Featured Projects
+## Featured Project
 
 ### [Billing Event Pipeline](https://github.com/sachanworks-code/billing-event-pipeline)
 
-A Java 21 and Spring Boot backend demo using **Kafka, MySQL, and a transactional outbox** to process synthetic billing events reliably.
+A Java 21 and Spring Boot project demonstrating a reliable billing event processing architecture built with **Kafka, MySQL, and transactional outbox patterns**.
 
-- **Idempotent processing:** duplicate deliveries create one billing record; conflicting replays go to a dead-letter queue.
-- **Reliable audit delivery:** billing data and audit intent commit together, with retries for pending audit events.
-- **Verified behavior:** 26 automated tests, including Kafka/MySQL integration tests; a local Docker demo processed all 100 synthetic events.
-- **Easy to explore:** architecture diagram, OpenAPI contract, Docker setup, and GitHub Actions verification.
+Highlights:
+- **Idempotent processing** for duplicate or re-ordered event delivery
+- **Reliable audit propagation** with outbox and retry-aware processing
+- **Dead-letter handling** for replay conflicts and invalid events
+- **Local Docker demonstration** for realistic end-to-end execution
+- **Automated verification** with 26 tests covering integration and message flow behavior
 
 [Explore the project →](https://github.com/sachanworks-code/billing-event-pipeline)
 
 ---
 
-## 🚀 Production Impact
+## Production Impact
 
 | Area | Contribution | Impact |
 | :--- | :--- | :--- |
-| **Billing ingestion** | Designed a Java/Spring Boot and Solace pipeline for Airtel Black, replacing batch polling | **400K+ files/day**, with peak throughput of **100 files/second** |
-| **Customer experience** | Led backend development for bill simplification and insights APIs | Contributed to a **20.6% reduction** in customer support calls |
-| **API performance** | Applied Aerospike caching and database query tuning | Supported **sub-second API latency** |
-| **Billing automation** | Optimized XML processing pipelines at Diksha Technologies | Contributed to a **40.8% reduction** in billing-related support tickets |
-
-## 🏗️ Systems I’ve Worked On
-
-### Event-Driven Billing Services
-
-Java 21 and Spring Boot microservices using **Solace for ingestion** and **Kafka for audit events**, with idempotent processing and automated retries.
-
-### Invoice Rendering & Payments
-
-A **Node.js and MongoDB** service that rendered HTML/PDF invoices using headless Chrome and embedded **UPI payment QR codes**.
-
-### GST E-Invoicing
-
-Microservices using **REST APIs, Solace, and Oracle** to automate Invoice Reference Number (IRN) and QR-code generation.
-
+| **Billing ingestion** | Designed a Java/Spring Boot + Solace ingestion pipeline for Airtel Black | **400K+ files/day**, with peak throughput of **100 files/sec** |
+| **Customer experience** | Built backend APIs for bill simplification and insights | Contributed to a **20.6% reduction** in customer support calls |
+| **API performance** | Optimized APIs with caching and database tuning | Supported **sub-second response times** |
+| **Billing automation** | Improved XML processing pipelines at Diksha Technologies | Contributed to a **40.8% reduction** in support tickets |
 
 ---
 
-## 💻 Tech Stack
+## Core Systems I’ve Worked On
+
+### Event-Driven Billing Platforms
+Java 21 and Spring Boot microservices using **Solace for ingestion** and **Kafka for audit and downstream events**, with idempotent processing and retry-safe delivery patterns.
+
+### Invoice Rendering & Payments
+A Node.js and MongoDB service that rendered HTML/PDF invoices and embedded **UPI payment QR codes** for customer-facing billing flows.
+
+### GST E-Invoicing Automation
+REST-based microservices using **Solace and Oracle** to automate IRN generation, QR code creation, and invoice reference workflows.
+
+---
+
+## Tech Stack
 
 ### Languages & Backend
-
 <p>
   <img alt="Java 21" src="https://img.shields.io/badge/Java%2021-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
   <img alt="Spring Boot" src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" />
@@ -86,15 +84,13 @@ Microservices using **REST APIs, Solace, and Oracle** to automate Invoice Refere
   <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=white" />
 </p>
 
-### Messaging
-
+### Messaging & Integration
 <p>
   <img alt="Apache Kafka" src="https://img.shields.io/badge/Apache%20Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white" />
   <img alt="Solace PubSub+" src="https://img.shields.io/badge/Solace%20PubSub+-00C895?style=for-the-badge&logo=&logoColor=white" />
 </p>
 
 ### Databases & Caching
-
 <p>
   <img alt="Oracle" src="https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=&logoColor=white" />
   <img alt="MySQL" src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
@@ -103,7 +99,6 @@ Microservices using **REST APIs, Solace, and Oracle** to automate Invoice Refere
 </p>
 
 ### Delivery & Infrastructure
-
 <p>
   <img alt="Docker" src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
   <img alt="Kubernetes" src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
@@ -113,7 +108,6 @@ Microservices using **REST APIs, Solace, and Oracle** to automate Invoice Refere
 </p>
 
 ### Testing & Operations
-
 <p>
   <img alt="JUnit" src="https://img.shields.io/badge/JUnit-25A162?style=for-the-badge&logo=junit5&logoColor=white" />
   <img alt="JMeter" src="https://img.shields.io/badge/JMeter-D22128?style=for-the-badge&logo=apachejmeter&logoColor=white" />
@@ -123,7 +117,7 @@ Microservices using **REST APIs, Solace, and Oracle** to automate Invoice Refere
 
 ---
 
-## 🛠️ Tools I Work With
+## Tools I Work With
 
 <table align="center">
   <tr>
@@ -146,21 +140,22 @@ Microservices using **REST APIs, Solace, and Oracle** to automate Invoice Refere
 
 ---
 
-## 💼 Experience & Education
+## Experience & Education
 
 - **Bharti Airtel Limited** — Senior Software Engineer · Oct 2021–Present
 - **Diksha Technologies** — Associate Software Engineer · Jan 2020–Oct 2021
 - **IIIT Bangalore** — PG Diploma in Software Development (Full-Stack) · 2022–2023
 - **Dr. A.P.J. Abdul Kalam Technical University** — B.Tech in Mechanical Engineering · 2012–2016
 
-## 🏆 Recognition
+---
 
-**Ace of Innovation — Airtel Digital**, for the Bill Spike concept for Airtel Black billing.
+## Recognition
 
+**Ace of Innovation — Airtel Digital** for the Bill Spike concept focused on telecom billing innovation and customer impact.
 
 ---
 
-## 🐍 Contribution Snake
+## Contribution Snake
 
 <p align="center">
   <picture>
@@ -172,8 +167,9 @@ Microservices using **REST APIs, Solace, and Oracle** to automate Invoice Refere
 ---
 
 <p align="center">
-  <b>Let’s connect over Java, backend engineering, and distributed systems.</b><br /><br />
+  <b>Let’s connect and build backend systems that scale.</b><br /><br />
   <a href="https://www.linkedin.com/in/vikash-sachan">LinkedIn</a> ·
+  <a href="https://github.com/sachanworks-code">GitHub</a> ·
   <a href="mailto:sachan.v1994@gmail.com">Email</a>
 </p>
 
